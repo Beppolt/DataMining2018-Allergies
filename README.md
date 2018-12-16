@@ -20,7 +20,12 @@ In order to get more info about our studies and see the details of our workload,
 
 # Source code
 
-- 
+- **best500.py**: sort the reduced map table based on the number of target gene with non-zero relative frequencies in the descending order, then select the best 500 genes to study.
+- **compact_iso_minimum.py**: compact isoforms of target genes, taking the lowest value when genes in expansion lists have more than one non-zero relative frequency. 
+- **compact_rows_maximum.py**: compact isoforms of genes in expansion lists, taking the highest value when a non-zero relative frequency appears for multiple target genes.
+- **map_table.py**: given as input the expansion lists and a threshold value, discard genes in expansion lists with relative frequency lower than the threshold, than build a Python Dataframe containing our target genes as columns, genes in lists s row and relative frequencies inside cells.
+- **script_targets.ipynb**: given as input the targets genes we needed to expand using NESSRA, it returns as output the file to send in order to start the expansion pipeline.
+- **searchfiles.ipynb**: read csv file (gene@home table) and make a dictionary where key is t123456 code and value is its name, then look for t123456 name in dict and return its id in the gene@home table, storing mapping id-name (in T123456 syntax) on csv file. Last call rclone command to move files from experiments_result folder to our folder.
 
 # Team members
 
