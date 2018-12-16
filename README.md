@@ -11,7 +11,8 @@ We developed an approach based on the analysis of the correlation between the ge
 We constructed a mapping table with the target genes and their expanded lists, and through unsupervised learning method  we seek for the genes which may have an involvement in the pathway of the corticosteroid-responsive genes. This preliminary work is a promising approach to investigate the correlations among genes and to hypothesize a replacement for the corticosteroid drug.
 
 <p align="center">
-  <img width="225" height="225" src="Cortisone.png">
+  <img src="Cortisone.png">
+</p>
 
 # Report
 
