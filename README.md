@@ -32,7 +32,7 @@ In order to get more info about our studies and see the details of our workload,
 # Team members
 
 - Giulia Marianini
-- Martina Paganini
+- Martina Paganin
 - Stefania Pirrotta
 - Giuseppe Spallitta
 
